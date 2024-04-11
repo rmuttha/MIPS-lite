@@ -1,0 +1,199 @@
+------------------------------------------------------------------
+MIPS-Lite: Functional Simulator
+
+------------------------------------------------------------------
+ Total number of instructions            =  911
+ Number of Arithmetic instructions       =  375
+ Number of Logical instructions          =  61
+ Number of Memory Acess instructions     =  300
+ Number of Control Transfer instructions =  175
+ PC:  112
+ R 11 :  1044
+ R 12 :  1836
+ R 13 :  2640
+ R 18 :  3440
+ R 19 :  -1
+ R 20 :  -2
+ R 22 :  76
+ R 23 :  3
+ R 24 :  -1
+ R 14 :  25
+ R 15 :  -188
+ R 17 :  29
+ R 16 :  213
+ R 21 :  -1
+ R 25 :  3
+ Memory : Address:  2400 , Values:  2
+ Memory : Address:  2404 , Values:  4
+ Memory : Address:  2408 , Values:  6
+ Memory : Address:  2412 , Values:  8
+ Memory : Address:  2416 , Values:  10
+ Memory : Address:  2420 , Values:  12
+ Memory : Address:  2424 , Values:  14
+ Memory : Address:  2428 , Values:  16
+ Memory : Address:  2432 , Values:  18
+ Memory : Address:  2436 , Values:  29
+ Memory : Address:  2440 , Values:  22
+ Memory : Address:  2444 , Values:  24
+ Memory : Address:  2448 , Values:  26
+ Memory : Address:  2452 , Values:  28
+ Memory : Address:  2456 , Values:  30
+ Memory : Address:  2460 , Values:  32
+ Memory : Address:  2464 , Values:  34
+ Memory : Address:  2468 , Values:  36
+ Memory : Address:  2472 , Values:  38
+ Memory : Address:  2476 , Values:  59
+ Memory : Address:  2480 , Values:  42
+ Memory : Address:  2484 , Values:  44
+ Memory : Address:  2488 , Values:  46
+ Memory : Address:  2492 , Values:  48
+ Memory : Address:  2496 , Values:  50
+ Memory : Address:  2500 , Values:  52
+ Memory : Address:  2504 , Values:  54
+ Memory : Address:  2508 , Values:  56
+ Memory : Address:  2512 , Values:  58
+ Memory : Address:  2516 , Values:  89
+ Memory : Address:  2520 , Values:  62
+ Memory : Address:  2524 , Values:  64
+ Memory : Address:  2528 , Values:  66
+ Memory : Address:  2532 , Values:  68
+ Memory : Address:  2536 , Values:  70
+ Memory : Address:  2540 , Values:  72
+ Memory : Address:  2544 , Values:  74
+ Memory : Address:  2548 , Values:  76
+ Memory : Address:  2552 , Values:  78
+ Memory : Address:  2556 , Values:  119
+ Memory : Address:  2560 , Values:  82
+ Memory : Address:  2564 , Values:  84
+ Memory : Address:  2568 , Values:  86
+ Memory : Address:  2572 , Values:  88
+ Memory : Address:  2576 , Values:  90
+ Memory : Address:  2580 , Values:  92
+ Memory : Address:  2584 , Values:  94
+ Memory : Address:  2588 , Values:  96
+ Memory : Address:  2592 , Values:  98
+ Memory : Address:  2596 , Values:  149
+ Memory : Address:  2600 , Values:  2
+ Memory : Address:  2604 , Values:  4
+ Memory : Address:  2608 , Values:  6
+ Memory : Address:  2612 , Values:  8
+ Memory : Address:  2616 , Values:  10
+ Memory : Address:  2620 , Values:  12
+ Memory : Address:  2624 , Values:  14
+ Memory : Address:  2628 , Values:  16
+ Memory : Address:  2632 , Values:  18
+ Memory : Address:  2636 , Values:  29
+------------------------------------------------------------------
+
+PS C:\Users\saksh\OneDrive\Desktop\Spring_2022\ECE_586\Project> 
+
+
+------------------------------------------------------------------
+MIPS-Lite: Functional & Timing Simulator without Forwarding
+
+------------------------------------------------------------------
+ Total number of instructions            =  911
+ Number of Arithmetic instructions       =  375
+ Number of Logical instructions          =  61
+ Number of Memory Acess instructions     =  300
+ Number of Control Transfer instructions =  175
+ PC:  112
+-> Total number of stalls =  554
+-> Number of Data Hazards =  307
+-> Average Stall Penalty  =  1.8046
+ R 11 :  1044
+ R 12 :  1836
+ R 13 :  2640
+ R 18 :  3440
+ R 19 :  -1
+ R 20 :  -2
+ R 22 :  76
+ R 23 :  3
+ R 24 :  -1
+ R 14 :  25
+ R 15 :  -188
+ R 17 :  29
+ R 16 :  213
+ R 21 :  -1
+ R 25 :  3
+ Memory : Address:  2400 , Values:  2
+ Memory : Address:  2404 , Values:  4
+ Memory : Address:  2408 , Values:  6
+ Memory : Address:  2412 , Values:  8
+ Memory : Address:  2416 , Values:  10
+ Memory : Address:  2420 , Values:  12
+ Memory : Address:  2424 , Values:  14
+ Memory : Address:  2428 , Values:  16
+ Memory : Address:  2432 , Values:  18
+ Memory : Address:  2436 , Values:  29
+ Memory : Address:  2440 , Values:  22
+ Memory : Address:  2444 , Values:  24
+ Memory : Address:  2448 , Values:  26
+ Memory : Address:  2452 , Values:  28
+ Memory : Address:  2456 , Values:  30
+ Memory : Address:  2460 , Values:  32
+ Memory : Address:  2464 , Values:  34
+ Memory : Address:  2468 , Values:  36
+ Memory : Address:  2628 , Values:  16
+ Memory : Address:  2632 , Values:  18
+ Memory : Address:  2636 , Values:  29
+------------------------------------------------------------------
+
+MIPS-Lite: Functional & Timing Simulator with Forwarding
+
+------------------------------------------------------------------
+------------------ Instruction Counts ------------------------------
+-> Total number of instructions  =  911
+-> Arithmetic instructions       =  375
+-> Logical instructions          =  61
+-> Memory Acess instructions     =  300
+-> Control Transfer instructions =  175
+------------------------------------------------------------------
+
+------------------ Final Register State ---------------------------
+-> PC:  112
+-> R 11 :  1044
+-> R 12 :  1836
+-> R 13 :  2640
+-> R 18 :  3440
+-> R 19 :  -1
+-> R 20 :  -2
+-> R 22 :  76
+-> R 23 :  3
+-> R 24 :  -1
+-> R 14 :  25
+-> R 15 :  -188
+-> R 17 :  29
+-> R 16 :  213
+-> R 21 :  -1
+-> R 25 :  3
+-> Total number of stalls =  [992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416, 992018416]
+-> Total number of stalls =  60
+-> Number of Data hazards =  60
+-> Memory => Address:  2400 , Contents:  2
+-> Memory => Address:  2404 , Contents:  4
+-> Memory => Address:  2408 , Contents:  6
+-> Memory => Address:  2412 , Contents:  8
+-> Memory => Address:  2416 , Contents:  10
+-> Memory => Address:  2420 , Contents:  12
+-> Memory => Address:  2424 , Contents:  14
+-> Memory => Address:  2428 , Contents:  16
+-> Memory => Address:  2432 , Contents:  18
+-> Memory => Address:  2436 , Contents:  29
+-> Memory => Address:  2440 , Contents:  22
+-> Memory => Address:  2444 , Contents:  24
+-> Memory => Address:  2448 , Contents:  26
+-> Memory => Address:  2452 , Contents:  28
+-> Memory => Address:  2456 , Contents:  30
+-> Memory => Address:  2460 , Contents:  32
+-> Memory => Address:  2464 , Contents:  34
+-> Memory => Address:  2468 , Contents:  36
+-> Memory => Address:  2472 , Contents:  38
+-> Memory => Address:  2476 , Contents:  59
+-> Memory => Address:  2480 , Contents:  42
+-> Memory => Address:  2484 , Contents:  44
+-> Memory => Address:  2488 , Contents:  46
+------------------- Timing Simulator -----------------------------
+-> Total number of clock cycles =  1213
+-> Program Halted!
+-----------------------------------------------------------------
