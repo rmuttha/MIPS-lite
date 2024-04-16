@@ -1,7 +1,7 @@
 
 # MIPS-lite Functional and Timing Simulators
 
-**## 1. Project Overview**<br>
+**##1. Project Overview**<br>
 This repository contains the implementation and analysis of various simulation models for MIPS-lite architecture. It includes functional simulators without forwarding, with forwarding, and a detailed study of branch predictors. These tools are developed to enhance understanding of pipeline processing, data hazards, and instruction decoding in MIPS-like systems.
 
 **## 2. Background**<br>
