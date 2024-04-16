@@ -37,7 +37,7 @@ b. Pipeline Simulation: Learning how instructions are processed in overlapping s
 c. Hazard Detection and Handling: Identifying and resolving conflicts in instruction execution (data hazards, control hazards) that can cause stalls in the pipeline.<br>
 d. Performance Analysis: Evaluating how different design choices affect the speed and efficiency of the processor.<br>
 
-## 3. Simulator Input**
+## 3. Simulator Input
 Memory Image: Containing both the code and data segments of the simulated program.<br>
 
 ## 4. Simulator Output
@@ -47,9 +47,9 @@ Statistics: Breakdown of instruction types and execution time in cycles.<br>
 ## 5. Installation
 To set up the simulator, clone the repository and compile the source code using an appropriate compiler for the chosen programming language.<br>
 
-_git clone [repository-link]_
-_cd [project-directory]_
-_make_ <br>
+`git clone [repository-link]`
+`cd [project-directory]`
+`make`
 
 ## 6. Usage
 To run the simulator, use the following command:<br>
