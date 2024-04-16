@@ -47,8 +47,8 @@ Statistics: Breakdown of instruction types and execution time in cycles.<br>
 ## 5. Installation
 To set up the simulator, clone the repository and compile the source code using an appropriate compiler for the chosen programming language.<br>
 
-`git clone [repository-link]`
-`cd [project-directory]`
+`git clone [repository-link]` <br>
+`cd [project-directory]` <br>
 `make`
 
 ## 6. Usage
